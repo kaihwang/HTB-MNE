@@ -14,9 +14,9 @@ cd ${WD}/QC
 
 #if [ "${nruns}" != "${n_raw}" ]; then
 mriqc \
-    --participant_label Pilot01 \
+    --participant_label Pilot03 \
     -m T1w bold \
-    --n_procs 4 \
+    --n_procs 1 \
     --mem_gb 8 \
     --ica \
     --ants-nthreads 4 \
